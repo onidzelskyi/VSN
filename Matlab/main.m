@@ -147,7 +147,7 @@ for I_matrix = 1:img_count
 end
 
 % save matrices to file
-save('data.mat', 'X', 'y');
+save('1431725.mat', 'X', 'y');
 
 %restore image matrices from training data
 

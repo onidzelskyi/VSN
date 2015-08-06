@@ -1,0 +1,6 @@
+bigmler main user a5b11ebe462ad583478cf40daf17e92060dc5915
+bigmler main --train data/iris.csv
+bigmler main --ensemble ensemble/50a1f43deabcb404d3000079 --test data/predictions.csv
+bigmler main --train data/iris.csv
+bigmler main --ensemble ensemble/50a1f43deabcb404d3000079 --test data/predictions.csv
+bigmler main --train

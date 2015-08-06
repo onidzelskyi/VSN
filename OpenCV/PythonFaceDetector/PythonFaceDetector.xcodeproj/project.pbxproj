@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FA9AD7B019C55F37005A1FDE /* P1010195.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P1010195.JPG; sourceTree = "<group>"; };
+		FA9AD7B119C55F37005A1FDE /* P1010465.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P1010465.JPG; sourceTree = "<group>"; };
+		FA9AD7B319C55F37005A1FDE /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenna.png; sourceTree = "<group>"; };
+		FA9AD7B419C55F37005A1FDE /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		FA9AD7B519C55F37005A1FDE /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
+		FA9AD7B719C55F37005A1FDE /* 3-dLujcGGuU.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-dLujcGGuU.jpeg"; sourceTree = "<group>"; };
+		FA9AD7B819C55F37005A1FDE /* 3dGkhDy8UB0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3dGkhDy8UB0.jpeg; sourceTree = "<group>"; };
+		FA9AD7B919C55F37005A1FDE /* 6WefS-e0bGs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6WefS-e0bGs.jpeg"; sourceTree = "<group>"; };
+		FA9AD7BB19C55F37005A1FDE /* DSC01259.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC01259.JPG; sourceTree = "<group>"; };
+		FA9AD7BC19C55F37005A1FDE /* DSC01595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC01595.JPG; sourceTree = "<group>"; };
+		FA9AD7BD19C55F37005A1FDE /* Копия (2) IMG_0109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Копия (2) IMG_0109.jpg"; sourceTree = "<group>"; };
+		FA9AD7BE19C55F37005A1FDE /* faceDetector.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = faceDetector.py; path = ../faceDetector.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FA9AD7A319C55BEC005A1FDE = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7AE19C55F37005A1FDE /* data */,
+				FA9AD7BE19C55F37005A1FDE /* faceDetector.py */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9AD7AE19C55F37005A1FDE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7AF19C55F37005A1FDE /* mama */,
+				FA9AD7B219C55F37005A1FDE /* misc */,
+				FA9AD7B619C55F37005A1FDE /* oleksii */,
+				FA9AD7BA19C55F37005A1FDE /* olga */,
+			);
+			name = data;
+			path = ../data;
+			sourceTree = "<group>";
+		};
+		FA9AD7AF19C55F37005A1FDE /* mama */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7B019C55F37005A1FDE /* P1010195.JPG */,
+				FA9AD7B119C55F37005A1FDE /* P1010465.JPG */,
+			);
+			path = mama;
+			sourceTree = "<group>";
+		};
+		FA9AD7B219C55F37005A1FDE /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7B319C55F37005A1FDE /* Lenna.png */,
+				FA9AD7B419C55F37005A1FDE /* test2.jpg */,
+				FA9AD7B519C55F37005A1FDE /* test3.jpg */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		FA9AD7B619C55F37005A1FDE /* oleksii */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7B719C55F37005A1FDE /* 3-dLujcGGuU.jpeg */,
+				FA9AD7B819C55F37005A1FDE /* 3dGkhDy8UB0.jpeg */,
+				FA9AD7B919C55F37005A1FDE /* 6WefS-e0bGs.jpeg */,
+			);
+			path = oleksii;
+			sourceTree = "<group>";
+		};
+		FA9AD7BA19C55F37005A1FDE /* olga */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD7BB19C55F37005A1FDE /* DSC01259.JPG */,
+				FA9AD7BC19C55F37005A1FDE /* DSC01595.JPG */,
+				FA9AD7BD19C55F37005A1FDE /* Копия (2) IMG_0109.jpg */,
+			);
+			path = olga;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FA9AD7A819C55BEC005A1FDE /* PythonFaceDetector */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FA9AD7AB19C55BEC005A1FDE /* Build configuration list for PBXLegacyTarget "PythonFaceDetector" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python;
+			dependencies = (
+			);
+			name = PythonFaceDetector;
+			passBuildSettingsInEnvironment = 1;
+			productName = PythonFaceDetector;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		FA9AD7A419C55BEC005A1FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Oleksii;
+			};
+			buildConfigurationList = FA9AD7A719C55BEC005A1FDE /* Build configuration list for PBXProject "PythonFaceDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA9AD7A319C55BEC005A1FDE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9AD7A819C55BEC005A1FDE /* PythonFaceDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FA9AD7A919C55BEC005A1FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA9AD7AA19C55BEC005A1FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA9AD7AC19C55BEC005A1FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA9AD7AD19C55BEC005A1FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9AD7A719C55BEC005A1FDE /* Build configuration list for PBXProject "PythonFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9AD7A919C55BEC005A1FDE /* Debug */,
+				FA9AD7AA19C55BEC005A1FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9AD7AB19C55BEC005A1FDE /* Build configuration list for PBXLegacyTarget "PythonFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9AD7AC19C55BEC005A1FDE /* Debug */,
+				FA9AD7AD19C55BEC005A1FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9AD7A419C55BEC005A1FDE /* Project object */;
+}
